@@ -1,4 +1,4 @@
-# Final Capstone Proposal - Michael Suttles
+# Dog Breed Identification - Michael Suttles
 
 * What are you trying to do?
   * Inputting an image of a dog, determine what breed that dog is.
