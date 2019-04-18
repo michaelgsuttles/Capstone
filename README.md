@@ -1,20 +1,46 @@
 # Dog Breed Identification - Michael Suttles
 
-* What are you trying to do?
-  * Inputting an image of a dog, determine what breed that dog is.
-* How has this problem been solved before?
-  * There have been Kaggle competitions to accomplish this goal.
-* What is new about your approach, why do you think it will be successful?
-  * I will use images of dogs that are facing forward, and will include a large number of dog breeds.
-* Who cares? If you're successful, what will the impact be?
-  * Dog owners will enjoy inputting their dog into the system to see what breed it outputs. It may also help with quick identification in the field if necessary.
-* How will you present your work?
-  * I will present my work on GitHub, and possibly on my website.
-* Visualization - what final visuals are you aiming to produce?
-  * I will present visuals of dogs and the breed that is output by the system. I may also include some summary statistics.
-* What are your data sources? What is the size of your dataset, and what is your storage format?
-  * I am scraping Google images for hundreds of dog images for each breed. They are stored in jpg format.
-* What are potential problems with your capstone, and what have you done to mitigate these problems?
-  * The images of dogs are inconsistent--for example, some images have more than one dog pictured. I am manually cleaning the images to delete irrelevant photos.
-* What is the next thing you need to work on?
-  * I need to get additional dog breed images and clean the data.
+## Introduction
+
+* Animal shelters around the country could benefit from a system that easily identifies a dog by its breed—especially in cases where the dog is a mixed breed.
+* I used a convolutional neural network for image classification of dog breed.
+* I used TensorFlow in Python to implement the CNN, and Shapley Additive Explanations [https://github.com/slundberg/shap]((SHAP)) to interpret the model.
+
+## Data Sources
+
+* I scraped Google Images for the dataset of 35 breed images
+  * about 400 images per breed
+* I added the [http://vision.stanford.edu/aditya86/ImageNetDogs/](Stanford dog breed dataset) images
+  * 100-200 images per breed, but some breeds not included
+
+## Optimizing the algorithm
+
+* Tweak different parameters, including:
+  * How large the image is that the CNN is finding features from? 244x244 pixels, 350x350, etc.
+  * What do you do to the image? Crop, zoom, skew...
+  * The structure of the “fully connected layers” at the end
+  * How many times (“epochs”) it should run
+* Improved accuracy from 70% to 80% for 35 breeds
+
+## Results
+
+* 3 breed model: 95.7% accuracy
+* 35 breed model: 80% accuracy
+
+## How the neural net “sees” the image
+
+[husky-shap.png]
+[bordercollie-shap.png]
+
+## Future work
+
+* Further refine model to account for errors (for example, along border of image).
+* Implement a 152-layer ResNet model instead of a 50-layer model, which has been shown to have the highest degree of accuracy.
+* Look into an ensemble model, which can result in higher accuracy.
+
+## For further information
+
+* Email: [mailto:michael@doggydatazone.com](michael@doggydatazone.com)
+* LinkedIn: [linkedin.com/in/michaelgsuttles]
+* Website: [www.doggydatazone.com]
+
