@@ -29,8 +29,10 @@
 
 ## How the neural net “sees” the image
 
-[husky-shap.png]
-[bordercollie-shap.png]
+
+![alt text](husky-shap.png "Husky as seen by SHAP")
+![alt text](bordercollie-shap.png "Border Collie as seen by SHAP")
+
 
 ## Future work
 
