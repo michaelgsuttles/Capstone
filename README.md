@@ -10,7 +10,7 @@
 
 * I scraped Google Images for the dataset of 35 breed images
   * about 400 images per breed
-* I added the [http://vision.stanford.edu/aditya86/ImageNetDogs/](Stanford dog breed dataset) images
+* I added the [<http://vision.stanford.edu/aditya86/ImageNetDogs/>](Stanford dog breed dataset) images
   * 100-200 images per breed, but some breeds not included
 
 ## Optimizing the algorithm
@@ -41,6 +41,6 @@
 ## For further information
 
 * Email: [mailto:michael@doggydatazone.com](michael@doggydatazone.com)
-* LinkedIn: [linkedin.com/in/michaelgsuttles]
-* Website: [www.doggydatazone.com]
+* LinkedIn: [linkedin.com/in/michaelgsuttles](linkedin.com/in/michaelgsuttles)
+* Website: [www.doggydatazone.com](www.doggydatazone.com)
 
