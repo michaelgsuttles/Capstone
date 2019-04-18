@@ -4,13 +4,13 @@
 
 * Animal shelters around the country could benefit from a system that easily identifies a dog by its breed—especially in cases where the dog is a mixed breed.
 * I used a convolutional neural network for image classification of dog breed.
-* I used TensorFlow in Python to implement the CNN, and Shapley Additive Explanations [github.com/slundberg/shap]((SHAP)) to interpret the model.
+* I used TensorFlow in Python to implement the CNN, and Shapley Additive Explanations (SHAP) to interpret the model.
 
 ## Data Sources
 
 * I scraped Google Images for the dataset of 35 breed images
   * about 400 images per breed
-* I added the [vision.stanford.edu/aditya86/ImageNetDogs/](Stanford dog breed dataset) images
+* I added the Stanford dog breed dataset images
   * 100-200 images per breed, but some breeds not included
 
 ## Optimizing the algorithm
