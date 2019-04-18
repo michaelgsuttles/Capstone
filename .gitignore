@@ -3,3 +3,5 @@ data/
 output/
 keys.pem
 checkpoints/
+.ipynb_checkpoints
+__pycache__
