@@ -42,7 +42,7 @@
 
 ## For further information
 
-* Email: [mailto:michael@doggydatazone.com](michael@doggydatazone.com)
-* LinkedIn: [linkedin.com/in/michaelgsuttles](linkedin.com/in/michaelgsuttles)
-* Website: [www.doggydatazone.com](www.doggydatazone.com)
+* Email: [michael@doggydatazone.com](mailto:michael@doggydatazone.com)
+* LinkedIn: [http://www.linkedin.com/in/michaelgsuttles](http://www.linkedin.com/in/michaelgsuttles)
+* Website: [http://www.doggydatazone.com](http://www.doggydatazone.com)
 
