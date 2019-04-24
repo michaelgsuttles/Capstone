@@ -37,7 +37,7 @@
 ## Future work
 
 * Further refine model to account for errors (for example, along border of image).
-* Implement a 152-layer ResNet model instead of a 50-layer model, which has been shown to have the highest degree of accuracy.
+* Implement a Densely Connected Convolutional Network, which has been shown to have the highest degree of accuracy.
 * Look into an ensemble model, which can result in higher accuracy.
 
 ## For further information
