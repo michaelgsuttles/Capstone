@@ -36,8 +36,8 @@
 
 ## Future work
 
+* Implement a Densely Connected Convolutional Network instead of a ResNet-50, which has been shown to have a higher degree of accuracy.
 * Further refine model to account for errors (for example, along border of image).
-* Implement a Densely Connected Convolutional Network, which has been shown to have the highest degree of accuracy.
 * Look into an ensemble model, which can result in higher accuracy.
 
 ## For further information
